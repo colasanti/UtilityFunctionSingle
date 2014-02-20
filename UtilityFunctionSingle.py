@@ -22,3 +22,15 @@
 #   starting from the top compare eac value with the new value if it is larger
 #   replace the value and push the stack down
 
+import UpdatedSortedArray
+
+def main():
+    x = UpdatedSortedArray.UpdatedSortedArray()
+    x.addData(1)
+    print x.getSize()
+    
+
+    return 0
+
+if __name__ == '__main__':
+    main()
